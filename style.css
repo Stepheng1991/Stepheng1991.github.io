@@ -29,6 +29,23 @@ nav img{
    text-decoration: none;
    font: 15px;
 }
+.nav-links ul li ::after{
+   content: "";
+   width: 0%;
+   height:2px;
+   background: #f44336;
+   display: block;
+   margin: auto;
+}
+.nav-links ul li :hover::after{
+   content: "";
+   width: 0%;
+   height:2px;
+   background: #f44336;
+   display: block;
+   margin: auto;
+   transition: 0.5s;
+}
    .gray-text {
     color: gray;   
     }
