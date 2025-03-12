@@ -80,3 +80,7 @@ nav img{
     .larger-image {
        width: 400px;
     }
+    p {
+      font-size: medium;
+      font-family: 'Times New Roman', Times, serif;
+    }
