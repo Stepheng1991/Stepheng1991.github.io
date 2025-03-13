@@ -71,7 +71,17 @@ nav img{
       display: grid;
       grid-template-rows: 100px 250px 50px;
     }
-    .image {
+    .grid-item-1 {
+      grid-area: header;
+    }
+    .grid-item-2 {
+      grid-area: body;
+    }
+    .grid-item-3 {
+      grid-area: footer;
+    }
+
+    image {
       width: 20px;
       height: 20px;
     }
