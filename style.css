@@ -67,4 +67,7 @@ nav img{
       font-size: medium;
       font-family: 'Times New Roman', Times, serif;
     }
-
+    .grid-container {
+      display: grid;
+      grid-template-rows: 100px 250px 50px;
+    }
