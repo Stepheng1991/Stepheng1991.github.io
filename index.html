@@ -1,55 +1,63 @@
 <!DOCTYPE html>
 <html>
 <style>
-   .header{
-   min-height: 100vh;
-   width: 100%;
-   background-position: center;
-   background-size: cover;
-   position: relative;
-   }   
-   .aside {
-    float: right;
-   }
+body {
+    background-color: bisque;
+}
+.image{
+    max-width: 30px;
+    max-height: 30px;
+}
+img {
+    max-width: 500px;
+    max-height: 400px;
+    margin-left: 50px;
+}
+.container {
+    display: grid;
+    align-items: right;
+    grid-template-columns: 1fr 2fr;
+}
+.text {
+    font-size: x-large;
+    text-align:left;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.button {
+    align-items: flex-end;
+}
 </style>
-<head>  
-   <link rel="stylesheet" href="style.css">
-</head>    
+<header>
+<h1>Personal Portfolio of Stephen Geldenhuys</h1>
+<button>
+    <a class="button" href="aboutMe.html">Portfolio</a></li>
+</button> 
 
-    <div class="grid-container">
-        <div class="grid-item grid-item-1"></div>
-        <header><a href="aboutMe.html"></a>
-        <div class="nav-links">
-           <ul>
-               <li><a href="aboutMe.html">Portfolio</a></li>
-            </ul> 
-        </div>
-        </header>
-        <div class="grid-item grid-item-2">
-   <body><h1>Personal portfolio for Stephen Geldenhuys</h1> </body>
-         </div>    
-        <div class="grid-item grid-item-3">  
-        <footer>
-            <h1>Contact Me</h1>
-            <a class="image"; href="https://www.salesforce.com/trailblazer/sotpq7gtvtwyw6l8l4" target="_blank">
-            <img src="salesforce.jfif">
-        </a>
-        <a class="image"; href="https://www.linkedin.com/in/stephen-geldenhuys-95993688" target="_blank">
-            <img src="linkedin2.png">
-        </a>
-        </footer>
-    </div>    
-    </div> 
-</nav>
+</header>
+
 <body>
+    <div class="container">
+        <div class="img">
+            <img src="stephen2.jpg" alt="stephen"/>
+        </div>
+       <div class="text">
+        <h1>About Me</h1>
+        <p>I have almost a decade of experience in the financial and banking sector, mostly in the client-facing and credit space. My work experience has helped me develop good communication skills, as well as developing a passion for working with people. My areas of expertise include data analysis, financial administration, and budgeting. I am always eager to further develop my skillset and am continuously trying to gain new knowledge in related fields, such as current courses in Advanced Excel and Data Analysis on Udemy business.</p>
+        </div>
+    </div>
 
-<h2 style="color: rgb(255, 213, 0);"></h2>
- </body>
 
- <aside class="aside"> 
-<img src="stephen2.jpg" alt="stephen" 
-width="500"
-height="500"/>
-</aside>  
+<footer>
+    <h2>Contact Me</h2>
+    <a href="https://www.salesforce.com/trailblazer/sotpq7gtvtwyw6l8l4" target="_blank">
+        <img class="image" src="salesforce.jfif">
+    </a>
+    <a href="https://www.linkedin.com/in/stephen-geldenhuys-95993688" target="_blank">
+        <img class="image" src="linkedin2.png">
+    </a>
+</footer>
 
+
+</body>
 </html>
